@@ -1,0 +1,345 @@
+/**
+
+Deze website is ontworpen door RJH MEDIA.
+Alle rechten voorbehouden.
+
+*/
+
+@font-face{
+  font-family: "Proxima-Bold";
+  src: url('/assets/fonts/ProximaBold.otf'),
+  url('/assets/fonts/ProximaBold.otf'); /* IE */
+}
+
+@font-face{
+  font-family: "Proxima-Light";
+  src: url('/assets/fonts/ProximaLight.otf'),
+  url('/assets/fonts/ProximaLight.otf'); /* IE */
+}
+
+body {
+
+  font-family: "Proxima-Bold", "Proxima-Light";
+  color: rgb(0, 0, 0);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+a,p {
+    color: #000000;
+  text-align: center;
+  font-family: "Proxima-Light";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Proxima-Bold", "Proxima-Light";
+  color: #c71c1a;
+  text-align: center;
+}
+
+.column img{
+    border-radius: 5px;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  right: 15px;
+  bottom: 15px;
+  background: #c71c1a;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background: #c71c1a;
+  transition: background 0.2s ease-in-out;
+}
+
+
+#header {
+  height: 45px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  padding: 0px 0;
+  background: #ffffff;
+}
+
+
+#header .logo h1 {
+  font-size: 0px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#header .logo h1 a, #header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .logo img {
+  padding: 0; 
+  margin: 0;
+  max-height: 200px;
+}
+
+@media (max-width: 768px) {
+  #header .logo h1 {
+    font-size: 28px;
+    padding: 8px 0;
+  }
+}
+
+#main {
+  margin-top: 10px;
+}
+
+
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: #f2f9f8;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.map {
+  padding: 0;
+  margin-bottom: -10px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 380px;
+}
+
+
+#footer {
+  background: #ffffff;
+  padding: 15px 0;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+.topimg
+{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+}
+
+.bottomimg
+{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f100; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c71c1a; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #941614; 
+}
+
+.icon-bar{
+  text-align: center;
+}
+
+.icon-bar a {
+  border-radius: 5px;
+  margin: auto;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  
+}
+
+@media only screen 
+and (max-device-width: 368px){
+.icon-bar{
+width: 100%;
+
+}}
+
+
+.icon-bar a:hover {
+  background-color: #c71c1a;
+}
+
+.youtube {
+  background: #FF0000;
+  color: white;
+}
+
+.instagram {
+  background: #F77737;
+  color: white;
+}
+
+.tiktok {
+  background: #EE1D52;
+  color: white;
+}
+
+ .logo h1 {
+  font-size: 0px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo h1 a, #header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo img {
+  padding: 0; 
+  margin: 0;
+  max-height: 200px;
+}
+
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 28px;
+    padding: 8px 0;
+  }
+}
+
+.img{
+
+  border-radius: 50%;
+}
+
+.button  {
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  background-color: #c71c1a;
+
+
+  
+}
+
+.button:hover {
+  background-color: #921414;
+  color: white;
+}
+
+.container {
+  padding: 2rem 0rem;
+}
+
+h4 {
+  margin: 2rem 0rem 1rem;
+}
+
